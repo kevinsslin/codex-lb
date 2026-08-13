@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.24.0](https://github.com/Soju06/codex-lb/compare/v1.23.0...v1.24.0) (2026-08-13)
+
+
+### Features
+
+* **reset-credits:** add refresh scheduler enable toggle ([#1701](https://github.com/Soju06/codex-lb/issues/1701)) ([6509dd0](https://github.com/Soju06/codex-lb/commit/6509dd0d4a577908e5940f35ba4c5ab6d66f23bc))
+* **telemetry:** anonymous usage telemetry with informed opt-out consent ([#1618](https://github.com/Soju06/codex-lb/issues/1618)) ([debd7cf](https://github.com/Soju06/codex-lb/commit/debd7cf63c173e1e7b2982ff171bf1564c150c5a))
+
+
+### Bug Fixes
+
+* **compact:** omit oversized non-state tool tail ([#1235](https://github.com/Soju06/codex-lb/issues/1235)) ([edb3734](https://github.com/Soju06/codex-lb/commit/edb37348f19a5015c3b90e0509ed92179e3716da))
+* **dashboard:** exclude cancelled/client_disconnected from error rate ([#1696](https://github.com/Soju06/codex-lb/issues/1696)) ([8a7d956](https://github.com/Soju06/codex-lb/commit/8a7d9560571478a435f66f082b7656a6e9313f14))
+* **dashboard:** pin web asset MIME types against poisoned OS registries ([#1709](https://github.com/Soju06/codex-lb/issues/1709)) ([2164b8c](https://github.com/Soju06/codex-lb/commit/2164b8c0656b3a8539ccdf8a4a8655a788af9ae8)), closes [#1698](https://github.com/Soju06/codex-lb/issues/1698)
+* **dashboard:** separate quota and purchased credits ([#1670](https://github.com/Soju06/codex-lb/issues/1670)) ([4a08d96](https://github.com/Soju06/codex-lb/commit/4a08d968f34aeec423892c02775769335590619f))
+* **http-bridge:** keep idle retirements out of retry circuit ([#1677](https://github.com/Soju06/codex-lb/issues/1677)) ([7c46719](https://github.com/Soju06/codex-lb/commit/7c4671980094135b9094278d2ebb374c7cb22655))
+* **proxy:** durably recover hard HTTP bridge operations ([#1657](https://github.com/Soju06/codex-lb/issues/1657)) ([7a0b671](https://github.com/Soju06/codex-lb/commit/7a0b67192140ab307b911719189c52f4fa87033d))
+* **proxy:** release the API-key reservation on all exits of the models endpoints ([#1653](https://github.com/Soju06/codex-lb/issues/1653)) ([7007885](https://github.com/Soju06/codex-lb/commit/7007885dad6572e2332739f808528c5b8b4a0857))
+* **quota-planner:** compare warmup reset epochs in UTC ([#1623](https://github.com/Soju06/codex-lb/issues/1623)) ([e4fa3f2](https://github.com/Soju06/codex-lb/commit/e4fa3f273f45ac9eaeafc28047005584c954ef3c))
+
+
+### Documentation
+
+* **openspec:** archive landed performance and reliability changes ([#1694](https://github.com/Soju06/codex-lb/issues/1694)) ([6b3db74](https://github.com/Soju06/codex-lb/commit/6b3db74e7b8a8201f6362e06a7debb517e48db27))
+
 ## [1.23.0](https://github.com/Soju06/codex-lb/compare/v1.22.0...v1.23.0) (2026-08-11)
 
 
